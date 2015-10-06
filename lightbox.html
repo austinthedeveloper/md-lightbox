@@ -1,0 +1,14 @@
+<md-dialog aria-label="Lightbox">
+  <md-toolbar>
+    <div class="md-toolbar-tools">
+      <h2 ng-if="title" ng-bind="title"></h2>
+      <span flex></span>
+      <md-button class="md-icon-button" ng-click="cancel()">
+        <md-icon md-font-library="material-icons" aria-label="Close" class="icon-static">close</md-icon>
+      </md-button>
+    </div>
+  </md-toolbar>
+  <md-dialog-content>
+      <img ng-src="{{image}}" alt="{{title}}">
+  </md-dialog-content>
+</md-dialog>
