@@ -9,7 +9,7 @@ A lightbox directive for Angular Material
 * Angular Material Icons (For the close button)
 
 ##Use
-* Place `md-lightbox` in an image and it will start working
+* Include `mdLightbox` in your module.
 * Adds the class `image-click` so the pointer cursor will show
 
 ```

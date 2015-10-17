@@ -1,4 +1,5 @@
-app.directive('mdLightbox', ['$mdDialog', function($mdDialog){
+angular.module('mdLightbox')
+    .directive('mdLightbox', ['$mdDialog', function($mdDialog){
 	return {
 		link: function($scope, elem, attrs){
 
