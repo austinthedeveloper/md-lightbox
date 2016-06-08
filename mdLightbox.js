@@ -1,4 +1,4 @@
-angular.module('mdLightbox')
+angular.module('mdLightbox', ['ngMaterial'])
     .directive('mdLightbox', ['$mdDialog', function($mdDialog){
 	return {
 		link: function($scope, elem, attrs){
